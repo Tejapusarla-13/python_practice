@@ -5,3 +5,13 @@ for i in range(0,10):
         pre_num=0
     sum1=pre_num+i
     print("the current number is",i,"previous number is",pre_num,"sum is",sum1)
+
+#these
+#
+#    lines
+#
+#         are
+#            for 
+#
+#
+#               git testing
