@@ -1,11 +1,10 @@
 # Exercise 5: Check if the first and last numbers of a list are the same
+def first_last_same(lis1):
 
+    if lis1[0]==lis1[-1]:
+        print(True)
+    else:
+        print(False)
+    return
 
-numbers_x = [10, 20, 30, 40, 10]
-
-
-if numbers_x[0]==numbers_x[-1]:
-    print(True)
-else:
-    print(False)
-
+first_last_same([10,22,32,43,10])
