@@ -1,8 +1,7 @@
 # Exercise 1: Calculate the multiplication and sum of two numbers
 
-a=input("enter the first number")
-b=input("enter the second number")
-a=int(a)
-b=int(b)
-print(a*b)
-print(a+b)
+def my_sum(a,b):
+    print("the product of numbers is",a*b)
+    print("the sum of numbers is",a+b)
+    
+my_sum(2,3)
