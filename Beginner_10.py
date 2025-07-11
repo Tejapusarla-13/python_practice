@@ -1,6 +1,14 @@
-# Exercise 11: Get each digit from a number in the reverse order.
+#Exercise 10: Merge two lists using the following condition
 
-num=1234
-num=str(num)
-for i in num[::-1]:
-    print(i,end=" ")
+def merged_list(lis1,lis2):
+    merg_lis=[]
+    for i in lis1:
+        if i%2!=0:
+            merg_lis.append(i)
+    for i in lis2:
+        if i%2==0:
+            merg_lis.append(i)
+    print("result list:",merg_lis)
+    return
+    
+merged_list(lis1=[10, 20, 25, 30, 35],lis2=[40, 45, 60, 75, 90])
