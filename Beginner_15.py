@@ -1,8 +1,7 @@
 # Exercise 15: Get an int value of base raises to the power of exponent
 
-base= input("enter the base number")
-exponent=input("enter the exponent")
-base=int(base)
-exponent=int(exponent)
+def power(base,exponent):
+    print(base**exponent)
+    return
 
-print(base**exponent)
+power(base=3,exponent=3)
