@@ -2,9 +2,11 @@
 def first_last_same(lis1):
 
     if lis1[0]==lis1[-1]:
-        print(True)
+        return True
     else:
-        print(False)
-    return
+        return False
+    
 
-first_last_same([10,22,32,43,10])
+test=first_last_same([10,22,32,43,10])
+
+print(test)

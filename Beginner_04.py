@@ -1,7 +1,8 @@
 # Exercise 4: Remove first n characters from a string
 def slicing(word,number):
     number=int(number)
-    print(word[number::])
-    return
-slicing("teja",2)
+    result=word[number::]
+    return result
+test=slicing("teja",2)
+print(test)
 

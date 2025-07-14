@@ -1,7 +1,12 @@
 # Exercise 1: Calculate the multiplication and sum of two numbers
 
 def my_sum(a,b):
-    print("the product of numbers is",a*b)
-    print("the sum of numbers is",a+b)
-    
-my_sum(2,3)
+    product=a*b
+    if product<1000:
+        return f"the result is {product}"
+    else:
+        return f"the result is {a+b}"
+
+result=my_sum(2,3)
+print(result)
+
