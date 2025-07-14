@@ -1,9 +1,10 @@
 # Exercise 8: Print the following pattern
 
 def pattern(rows):
+    str1=""
     for i in range(1,rows+1):
-        print((str(i)+" ")*i,)
-    return
+        str1+=(str(i)+" ")*i+"\n"
+    return str1
 
-pattern(rows=5)
-
+test=pattern(rows=5)
+print(test)

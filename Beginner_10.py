@@ -8,7 +8,9 @@ def merged_list(lis1,lis2):
     for i in lis2:
         if i%2==0:
             merg_lis.append(i)
-    print("result list:",merg_lis)
-    return
+    return f"result list: {merg_lis}"
     
-merged_list(lis1=[10, 20, 25, 30, 35],lis2=[40, 45, 60, 75, 90])
+    
+test=merged_list(lis1=[10, 20, 25, 30, 35],lis2=[40, 45, 60, 75, 90])
+
+print(test)

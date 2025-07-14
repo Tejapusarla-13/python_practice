@@ -3,9 +3,11 @@
 def palindrome(num):
     num=str(num)
     if num[0]== num[-1]:
-        print("the number is palindrome")
+        return "the number is palindrome"
     else:
-        print("the number is not palindrome")
-    return
+        return "the number is not palindrome"
     
-palindrome(num=232)
+    
+test=palindrome(num=232)
+
+print(test)
