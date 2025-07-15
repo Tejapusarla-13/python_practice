@@ -20,8 +20,9 @@ def tax(income):
         tax = 10000 * 10 / 100
         tax = tax + (income - 20000) * 20 / 100
     
-    print("Tax payable is: ",tax)
-    return
+    return f"Tax payable is: {tax}"
     
-tax(income=45000)
+test=tax(income=45000)
+
+print(test)
 

@@ -2,17 +2,21 @@
 
 def palindrome(num):
     num1=num
-    rev_num=0
-    while num1>0:
-        rem=num1%10
-        rev_num=rev_num*10+rem 
-        num1=num1//10
+    rev_num_value=0
+    
+    def rev_num(num1):
+        nonlocal rev_num_value
+        while num1>0:
+            rem=num1%10
+            rev_num_value=rev_num_value*10+rem 
+            num1=num1//10
         
-    if rev_num==num:
-        print("its a palindrome")
+    rev_num(num1)
+    if rev_num_value==num:
+        return "its a palindrome"
     else:
-        print("its not a palindrome")
+        return "its not a palindrome"
     
-    return
     
-palindrome(num=2332)
+test=palindrome(num=2382)
+print(test)

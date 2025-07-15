@@ -5,14 +5,16 @@ def fibonacci(num):
     num1=0
     num2=1
     num3=0
+    str1=""
     print(num1,num2,end=" ")
     for i in range(1,num+1):
         num3=num1+num2
         num1=num2
         num2=num3
-        print(num3,end=" ")
+        str1+=str(num3)+" "
+        
+    return str1
 
-    return
 
-fibonacci(num=13)
-
+test=fibonacci(num=13)
+print(test)

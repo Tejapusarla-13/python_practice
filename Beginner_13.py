@@ -4,6 +4,6 @@ def multiplication_table(num):
         for j in range(1,11):
             print(i * j ,end=" ")
         print()
-    return
+    
 
-multiplication_table(10)
+multiplication_table(num=10)
