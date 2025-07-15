@@ -3,6 +3,7 @@
 def alt_prime(num):
 
     lis=[]
+    str1=""
     for i in range(2,num+1):
         for j in range(2,i):
             if i%j==0:
@@ -12,7 +13,10 @@ def alt_prime(num):
 
     for i in range(len(lis)):
         if i%2==0:
-            print(lis[i],end=" ")
-    return
+            str1+=str(lis[i])+" "
+    
+    return str1
+    
 
-alt_prime(20)
+test=alt_prime(20)
+print(test)
