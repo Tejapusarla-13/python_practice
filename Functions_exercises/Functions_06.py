@@ -1,8 +1,8 @@
-#Exercise 7: Assign a different name to function and call it through the new name
+#Exercise 6: Create a recursive function
 
-def display_student(name, age):
-    print(name, age)
-
-show_student=display_student
-
-show_student("Emma", 26)
+def func(n):
+    if n==0:
+        return 0  
+    return n + func(n-1)
+      
+print(func(10))
